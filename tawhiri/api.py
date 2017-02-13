@@ -19,6 +19,11 @@
 Provide the HTTP API for Tawhiri.
 """
 
+# Fix the sys path
+import os
+import sys
+sys.path.insert(0, '/var/app/tawhiri/tawhiri')
+
 from flask import Flask, jsonify, request, g
 from datetime import datetime
 import time
