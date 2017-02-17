@@ -5,5 +5,10 @@ Cython
 sphinx
 docutils
 
+flask
+strict_rfc3339
+MagicMemoryView
+ruaumoko
+
 # Ourselves
 -e .
